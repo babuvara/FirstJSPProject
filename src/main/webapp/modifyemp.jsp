@@ -1,15 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Add new Emp</title>
+<title>Update Employee</title>
 </head>
-<body style="background-color: powderblue;">
+<body style="background-color:MediumSeaGreen;">
 	<form action="Employees" method="post">
 		<!-- -need to mention method=post -->
-		<h1>ADDING EMPLOYEE DETAILS</h1>
+		<h1>UPDATING EMPLOYEE DETAILS</h1>
 		<center>
 			<div>
 				ID: <input type='text' name='id'>
@@ -35,8 +35,9 @@
 				Salary: <input type='text' name='salary'>
 			</div>
 			<div>
-				<input type='submit' value='ADD' name='submit'>
+				<input type='submit' value='UPDATE' name='submit'>
 			</div>
+
 		</center>
 	</form>
 </body>

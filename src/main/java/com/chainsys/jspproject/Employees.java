@@ -23,24 +23,14 @@ import com.chainsys.jspproject.common.util.Validator;
 import com.chainsys.jspproject.dao.EmployeeDao;
 import com.chainsys.jspproject.pojo.Employee;
 
-/**
- * Servlet implementation class Employees
- */
 @WebServlet("/Employees")
 public class Employees extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	/**
-	 * @see HttpServlet#HttpServlet()
-	 */
 	public Employees() {
 		super();
 	}
 
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse
-	 *      response)
-	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		response.getWriter().append("Served at: ").append(request.getContextPath());
@@ -60,10 +50,6 @@ public class Employees extends HttpServlet {
 		}
 	}
 
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse
-	 *      response)
-	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 

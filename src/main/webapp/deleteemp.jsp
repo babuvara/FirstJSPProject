@@ -6,9 +6,10 @@
 <meta charset="ISO-8859-1">
 <title>Delete Employees</title>
 </head>
-<body>
+<body style="background-color:tomato;">
 	<form action="Employees" method="post">
 		<!-- -need to mention method=post -->
+		<h1>DELETING EMPLOYEE DETAILS</h1>
 		<center>
 			<div>
 				ID: <input type='text' name='id'>
